@@ -29,7 +29,7 @@ npm install
 
 ## Deployment
 
-Before deploying the ERC721 contract, provide your wallet private key where required, i.e., `PRIVATE_KEY= 'your wallet private key'`. To deploy the ERC721 contract named "AbstractArt" to the Goerli Ethereum Testnet, run the following command:
+Before deploying the ERC721 contract, provide your wallet private key where required, i.e., `PRIVATE_KEY= 'your wallet private key'`. To deploy the ERC721 contract named "animepiece" to the Goerli Ethereum Testnet, run the following command:
 
 ```bash
 npx hardhat run scripts/deploy.js --network goerli
@@ -53,30 +53,10 @@ This command will use the FxPortal Bridge to approve and deposit the minted NFTs
 npx hardhat run scripts/Transfer.js --goerli
 ```
 
-## Check NFT Wallet Balance
 
-To check the balance of the NFT wallet on the Polygon Mumbai network, run the following command:
-
-```bash
-npx hardhat run checkBalance.js --network mumbai
 ```
 
-## Features
 
-The contract offers the following functionalities:
-
-1. `mintNFT(address recipient, string memory tokenURI)`: Create a new NFT with the specified metadata URI and assign it to the provided recipient address.
-
-2. `tokenURI(uint256 tokenId)`: Retrieve the metadata URI associated with a specific NFT token ID.
-
-3. `totalSupply()`: Obtain the total number of NFTs minted so far.
-
-4. `balanceOf(address owner)`: Get the number of NFTs owned by a particular address.
-
-5. `promptDescription()`: A function on the contract that returns the prompt used to generate the images for the NFTs.
-
-## Author
-[Saksham Kanwar](https://github.com/01saksham)
 
 ## License
 

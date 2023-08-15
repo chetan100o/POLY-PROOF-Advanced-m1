@@ -22,7 +22,7 @@ contract AnimePiece is ERC721Enumerable, Ownable {
 
     event NFTMinted(address indexed minter, uint256 tokenId);
 
-    constructor() ERC721("AnimePiece", "EMB") {
+    constructor() ERC721("AnimePiece", "AP") {
       
     }
 

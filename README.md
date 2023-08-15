@@ -1,4 +1,4 @@
-# AbstractArt - ERC721 NFT Contract
+# AnimePiece - ERC721 NFT Contract
 
 This project provides a simple ERC-721 compliant smart contract to create and manage non-fungible tokens (NFTs) on the Polygon blockchain. Users can generate new NFTs, set their metadata (URI), and check the overall supply and balance of NFTs.
 
@@ -23,7 +23,7 @@ npm install
 
 ## Deployment
 
-Before deploying the ERC721 contract, provide your wallet private key where required, i.e., `PRIVATE_KEY= 'your wallet private key'`. To deploy the ERC721 contract named "AbstractArt" to the Goerli Ethereum Testnet, run the following command:
+Before deploying the ERC721 contract, provide your wallet private key where required, i.e., `PRIVATE_KEY= 'your wallet private key'`. To deploy the ERC721 contract named "AnimePiece" to the Goerli Ethereum Testnet, run the following command:
 
 ```bash
 npx hardhat run scripts/deploy.js --network goerli
